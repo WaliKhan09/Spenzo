@@ -1,0 +1,2 @@
+# Spenzo
+AI Finance Platform
