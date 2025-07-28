@@ -1,0 +1,149 @@
+# Spenzo - AI-Powered Personal Finance Management Platform
+# Requirements file for Node.js/Next.js project
+
+# =============================================================================
+# CORE FRAMEWORKS
+# =============================================================================
+next==15.4.4
+react==19.0.0-rc-66855b96-20241106
+react-dom==19.0.0-rc-66855b96-20241106
+
+# =============================================================================
+# AUTHENTICATION & SECURITY
+# =============================================================================
+@clerk/nextjs==6.6.0
+@arcjet/next==1.0.0-alpha.34
+
+# =============================================================================
+# DATABASE & ORM
+# =============================================================================
+@prisma/client==6.0.1
+prisma==6.0.1
+
+# =============================================================================
+# AI & EXTERNAL SERVICES
+# =============================================================================
+@google/generative-ai==0.21.0
+inngest==3.27.4
+resend==4.7.0
+
+# =============================================================================
+# UI COMPONENTS & STYLING
+# =============================================================================
+@radix-ui/react-checkbox==1.1.2
+@radix-ui/react-dialog==1.1.2
+@radix-ui/react-dropdown-menu==2.1.2
+@radix-ui/react-popover==1.1.2
+@radix-ui/react-progress==1.1.0
+@radix-ui/react-select==2.1.2
+@radix-ui/react-slot==1.1.0
+@radix-ui/react-switch==1.1.1
+@radix-ui/react-tooltip==1.1.4
+class-variance-authority==0.7.1
+clsx==2.1.1
+tailwind-merge==2.5.5
+tailwindcss-animate==1.0.7
+vaul==1.1.1
+
+# =============================================================================
+# FORM HANDLING & VALIDATION
+# =============================================================================
+@hookform/resolvers==3.9.1
+react-hook-form==7.53.2
+zod==3.23.8
+
+# =============================================================================
+# DATE & TIME HANDLING
+# =============================================================================
+date-fns==4.1.0
+react-day-picker==8.10.1
+
+# =============================================================================
+# ICONS & UI ELEMENTS
+# =============================================================================
+lucide-react==0.462.0
+
+# =============================================================================
+# DATA VISUALIZATION
+# =============================================================================
+recharts==2.14.1
+
+# =============================================================================
+# NOTIFICATIONS & FEEDBACK
+# =============================================================================
+sonner==1.7.0
+react-spinners==0.14.1
+
+# =============================================================================
+# THEMING
+# =============================================================================
+next-themes==0.4.3
+
+# =============================================================================
+# EMAIL TEMPLATES
+# =============================================================================
+@react-email/components==0.3.2
+@react-email/preview-server==4.2.4
+react-email==4.2.4
+
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+eslint==8
+eslint-config-next==15.0.3
+postcss==8
+tailwindcss==3.4.1
+
+# =============================================================================
+# INSTALLATION NOTES
+# =============================================================================
+# 
+# To install all dependencies:
+# npm install
+# 
+# To install specific categories:
+# npm install @clerk/nextjs @arcjet/next  # Authentication & Security
+# npm install @prisma/client prisma       # Database & ORM
+# npm install @google/generative-ai       # AI Services
+# npm install @radix-ui/react-*           # UI Components
+# npm install recharts lucide-react       # Data Visualization & Icons
+# 
+# =============================================================================
+# ENVIRONMENT VARIABLES REQUIRED
+# =============================================================================
+# 
+# Database:
+# DATABASE_URL=postgresql://username:password@localhost:5432/spenzo
+# DIRECT_URL=postgresql://username:password@localhost:5432/spenzo
+# 
+# Authentication (Clerk):
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+# CLERK_SECRET_KEY=your_clerk_secret_key
+# 
+# AI Services:
+# GOOGLE_AI_API_KEY=your_google_ai_api_key
+# 
+# Email (Resend):
+# RESEND_API_KEY=your_resend_api_key
+# 
+# Background Jobs (Inngest):
+# INNGEST_EVENT_KEY=your_inngest_event_key
+# INNGEST_SIGNING_KEY=your_inngest_signing_key
+# 
+# =============================================================================
+# SETUP COMMANDS
+# =============================================================================
+# 
+# 1. Install dependencies:
+#    npm install
+# 
+# 2. Generate Prisma client:
+#    npx prisma generate
+# 
+# 3. Push database schema:
+#    npx prisma db push
+# 
+# 4. Run development server:
+#    npm run dev
+# 
+# ============================================================================= 
