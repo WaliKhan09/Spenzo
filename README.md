@@ -3,6 +3,7 @@
 <div align="center">
   <img src="public/logo.png" alt="Spenzo Logo" width="200"/>
   
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Online-22c55e?style=for-the-badge&logo=vercel)](https://spenzo.vercel.app/)
   [![Next.js](https://img.shields.io/badge/Next.js-15.4.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
   [![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -12,6 +13,12 @@
   [![Clerk](https://img.shields.io/badge/Clerk-Auth-6C47FF?style=for-the-badge)](https://clerk.com/)
   [![Google AI](https://img.shields.io/badge/Google_AI-Gemini-4285F4?style=for-the-badge)](https://ai.google.dev/)
 </div>
+
+## 🌐 Live Demo
+
+**Visit the live application:** [https://spenzo.vercel.app/](https://spenzo.vercel.app/)
+
+Experience the full features of Spenzo including AI-powered receipt scanning, smart transaction categorization, and intelligent budget management.
 
 ## 📊 Overview
 
