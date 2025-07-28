@@ -120,7 +120,7 @@ The application uses PostgreSQL with the following main models:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/spenzo.git
+   git clone https://github.com/WaliKhan09/spenzo.git
    cd spenzo
    ```
 
